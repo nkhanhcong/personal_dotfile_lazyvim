@@ -37,6 +37,7 @@ return {
         "emmet_ls",
         "prismals",
         "pyright",
+        "gopls",
       },
     })
 
@@ -48,6 +49,11 @@ return {
         "black", -- python formatter
         "pylint",
         "eslint_d",
+        "gopls",
+        'gofumpt',
+        'golines',
+        'gomodifytags',
+        'gotests',
       },
     })
   end,
